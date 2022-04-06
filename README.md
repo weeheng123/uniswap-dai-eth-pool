@@ -1,3 +1,5 @@
+This project is for self learning purposes. Main focus was to use the AddLiquidity function of the V2Router. Feel free to use it as a reference in case this is something you need.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
