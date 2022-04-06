@@ -1,0 +1,118 @@
+.settings-overlay {
+  background-color: white;
+  width: 70%;
+  position: absolute;
+  top: 23%;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.settings-header {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.settings-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.transaction {
+  display: flex;
+  align-items: center;
+}
+
+.setting-input {
+  width: 40%;
+  border-radius: 2rem;
+  border-bottom-style: outset;
+  border-right-style: outset;
+  margin-right: 0.5rem;
+  border-color: rgb(143, 142, 142);
+  padding-left: 0.5rem;
+  height: 2rem;
+}
+
+.setting-input:hover {
+  border-color: lightblue;
+}
+
+.setting-input:focus {
+  border-color: lightblue;
+}
+
+.settings {
+  margin-bottom: 1rem;
+}
+
+.settings h4 {
+  margin-bottom: 0.2rem;
+  color: rgb(86, 90, 105);
+}
+
+@media only screen and (min-width: 600px) {
+  .settings-overlay {
+    width: 50%;
+    top: 20%;
+    right: 8%;
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 725px) {
+  .settings-overlay {
+    width: 40%;
+    top: 18%;
+    right: 25%;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .settings-overlay {
+    width: 40%;
+    top: 18%;
+    right: 26%;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .settings-overlay {
+    width: 30%;
+    top: 18%;
+    right: 28%;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .settings-overlay {
+    width: 20%;
+    top: 17%;
+    right: 28%;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .settings-overlay {
+    width: 15%;
+    top: 18%;
+    right: 28%;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .settings-overlay {
+    width: 15%;
+    top: 15%;
+    right: 23%;
+    padding: 2rem;
+  }
+}

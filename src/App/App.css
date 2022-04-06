@@ -1,0 +1,17 @@
+#root {
+  height: 100%;
+  width: 100%;
+  z-index: -999;
+  background-color: #d7e7f3;
+  position: fixed;
+}
+
+.container {
+  width: 100%;
+  padding: 1rem;
+}
+
+* {
+  font-family: "Inter custom", sans-serif;
+  box-sizing: border-box;
+}

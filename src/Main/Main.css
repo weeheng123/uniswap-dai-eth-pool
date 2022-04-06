@@ -1,0 +1,91 @@
+.main-container {
+  margin: 0 0.5rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.main-prices {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.token-price {
+  margin: 1rem 1rem;
+}
+
+.add-liquidity-button {
+  height: 3rem;
+  border-radius: 2rem;
+  border-bottom-style: inset;
+  border-right-style: inset;
+  background-color: rgb(108 106 245);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.add-liquidity-button:hover {
+  cursor: pointer;
+}
+
+.add-liquidity-button:active {
+  border-bottom-style: outset;
+  border-right-style: outset;
+}
+
+.conversion-text {
+  color: rgb(143, 142, 142);
+}
+
+.settings-button {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 725px) {
+  .main-container {
+    margin: 0 10rem;
+  }
+
+  .main-prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin: 1.5rem 3rem;
+  }
+
+  .dai-eth {
+    margin-bottom: 0rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .main-container {
+    margin: 0 15rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .main-container {
+    margin: 0 20rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .main-container {
+    margin: 0 25rem;
+  }
+}
